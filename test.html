@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+    margin: 0px;
+    padding: 0px;
+    font-size: 70%;
+    }
+
+
+    nav{
+    font-size: 1.8rem;
+    background-color: rgb(36, 13, 13);
+    position: fixed;
+    width: 100%;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color:  rgb(99, 148, 239);
+    }
+    nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    }
+    button{
+   height:25px;
+   width:75px;
+   border-radius: 30px;
+   border: 1px solid #29d9d5 ;
+   color:#29d9d5;
+   background-color: transparent;
+   position: absolute;
+    right: 20px;
+    top: 5px;
+    }
+    button:hover{
+        background-color:#29d9d5;
+        color: black;
+    }
+    div{
+        margin-top: 25px;
+        
+        width: 50%;
+        border: none;
+        color: black;
+        align:center;
+        background-color: bisque;
+        
+    }
+    h5{
+        color: rgb(78, 85, 226);
+    }
+    .photos{
+        background-color: white;
+        width: 800px;
+        margin: 100px auto;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    .first{
+        height: 100px;
+        width: 150px;
+        border-radius: 7%;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="image.png" height="15px"></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">Plans</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">Book Trail</a></li> -->
+            <button>Book Trail</button>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div>
+        <h5>Photographer's Blog</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="photos">
+        <img class="first" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60">
+        <img class="first" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+    </div>
+</body>
+</html>
